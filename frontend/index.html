@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prescription Chatbot UI</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <button class="back-button" type="button" aria-label="Go back">←</button>
+      <div class="title-group">
+        <p class="subtitle">Chat with AI Bot</p>
+        <h1>Prescription Assistant</h1>
+      </div>
+      <button class="menu-button" type="button" aria-label="Menu">⋯</button>
+    </header>
+
+    <main class="content">
+      <div id="landingPage" class="landing-page">
+        <div class="option-card" id="uploadOption">
+          <div class="option-icon">📄</div>
+          <h2>Upload Prescription</h2>
+          <p>Choose a file from your local system</p>
+        </div>
+        <div class="option-card" id="chatOption">
+          <div class="option-icon">💬</div>
+          <h2>Start a Chat</h2>
+          <p>Interact with the chatbot</p>
+        </div>
+      </div>
+
+      <section id="uploadPanel" class="upload-panel hidden">
+        <div class="upload-card">
+          <div class="upload-icon">📄</div>
+          <div class="upload-text">
+            <p class="upload-title">Upload prescription</p>
+            <p class="upload-subtitle">Any file or image format is supported.</p>
+          </div>
+          <button id="uploadButton" class="upload-action" type="button">Choose file</button>
+          <input id="fileInput" type="file" accept="image/*,.pdf,.doc,.docx,.txt" hidden />
+        </div>
+        <div id="fileInfo" class="file-info hidden">
+          <div class="file-meta">
+            <span id="fileName" class="file-name"></span>
+            <span id="fileSize" class="file-size"></span>
+          </div>
+          <div id="fileStatus" class="file-status hidden"></div>
+          <button id="clearFile" class="clear-file" type="button">Remove</button>
+        </div>
+      </section>
+
+      <section id="chatPanel" class="chat-panel hidden">
+        <button id="chatBackButton" class="chat-back-button hidden" type="button" aria-label="Go back">←</button>
+        <div id="chatMessages" class="chat-messages"></div>
+      </section>
+    </main>
+
+    <form id="chatForm" class="chat-input-panel hidden">
+      <input id="chatInput" class="chat-input" type="text" placeholder="Type your message..." autocomplete="off" required />
+      <button class="send-button" type="submit">➤</button>
+    </form>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
