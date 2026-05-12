@@ -1,0 +1,93 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "inspect-xlsx",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"inspect_xlsx.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "build-knowledge-graph",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"build_knowledge_graph.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "build-knowledge-graph",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"build_knowledge_graph.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "build-knowledge-graph",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"build_knowledge_graph.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "build-knowledge-graph",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"build_knowledge_graph.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "build-knowledge-graph",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"build_knowledge_graph.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "build-knowledge-graph",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"build_knowledge_graph.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "build-knowledge-graph",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"build_knowledge_graph.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		}
+	]
+}
