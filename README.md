@@ -20,14 +20,6 @@ m-aware is a Python-based application designed to provide [describe the main pur
 
 ---
 
-## Features
-
-- [Feature 1]: Briefly describe  
-- [Feature 2]: Briefly describe  
-- [Feature 3]: Briefly describe  
-
----
-
 ## Requirements
 
 - Python 3.8+
